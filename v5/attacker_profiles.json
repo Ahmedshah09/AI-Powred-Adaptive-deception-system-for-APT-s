@@ -1,0 +1,36 @@
+{
+  "100.65.39.23": {
+    "risk_score": 169.6043668855053,
+    "current_stage": 4,
+    "last_action_time": 1776413292.4829612,
+    "last_seen": 1776413339.4438,
+    "history": [
+      "BENIGN",
+      "T1018_Remote_System_Discovery",
+      "BENIGN",
+      "BENIGN",
+      "BENIGN",
+      "BENIGN",
+      "BENIGN",
+      "T1033_System_Owner_Discovery",
+      "T1033_System_Owner_Discovery",
+      "T1082_System_Information_Discovery",
+      "T1087_Account_Discovery",
+      "T1087_Account_Discovery",
+      "BENIGN",
+      "T1083_File_and_Directory_Discovery",
+      "T1016_System_Network_Config_Discovery",
+      "T1016_System_Network_Config_Discovery",
+      "BENIGN",
+      "T1105_Ingress_Tool_Transfer",
+      "T1105_Ingress_Tool_Transfer",
+      "T1059_Command_and_Scripting_Interpreter",
+      "T1078_Valid_Accounts",
+      "T1112_Modify_Registry",
+      "T1016_System_Network_Config_Discovery"
+    ],
+    "engagement_minutes": 0,
+    "deception_exposure": 0.0,
+    "rl_last_action": 0
+  }
+}

