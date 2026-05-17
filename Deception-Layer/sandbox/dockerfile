@@ -1,0 +1,26 @@
+FROM alpine:latest
+
+RUN apk add --no-cache openssh-server shadow audit util-linux
+
+# 1. Create the wrapper shell (Fixing the Fork Bomb)
+RUN echo '#!/bin/sh' > /bin/logger-shell && \
+    echo 'export SHELL=/bin/sh' >> /bin/logger-shell && \
+    echo 'exec script -q -a "/var/log/audit/session_$(date +%Y%m%d_%H%M%S).log"' >> /bin/logger-shell && \
+    chmod +x /bin/logger-shell
+
+# 2. Register the shell so SSH allows it
+RUN echo '/bin/logger-shell' >> /etc/shells
+
+# 3. Configure the ROOT user
+# Swap root's default shell to our logger, then set the password
+RUN sed -i 's|root:/bin/sh|root:/bin/logger-shell|' /etc/passwd && \
+    echo 'root:root123!' | chpasswd
+
+# 4. Configure SSH (Restored full commands)
+RUN ssh-keygen -A
+RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config
+
+COPY entrypoint.sh /entrypoint.sh
+EXPOSE 2222
+CMD ["/entrypoint.sh"]
